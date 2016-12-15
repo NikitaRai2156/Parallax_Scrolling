@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parallax-Demo</title>
+    <link rel="stylesheet" href="//normalize-css.googlecode.com/svn/trunk/normalize.css">
+    <link href='https://fonts.googleapis.com/css?family=Josefin+Slab:400,300,100,600,700' rel='stylesheet' type='text/css'>
+
+    <style>
+    * {
+      font-family: 'Josefin Slab', serif;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border box;
+      -ms-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+
+    body, html {
+      height: 100%;
+      margin: 0;
+      color: #777;
+    }
+
+    h3{
+      font-size: 40px;
+      font-weight: 700;
+    }
+
+    p {
+      font-size: 25px;
+      font-weight: 300;
+    }
+
+    .text-block {
+      text-align: center;
+      padding: 50px 80px;
+      background-color: #282E34;
+      color: #eeeeee;
+    }
+
+    .caption {
+      position: absolute;
+      left: 0;
+      top: 50%;
+      width: 100%;
+      text-align: center;
+      color: #000;
+    }
+
+    .caption span.border {
+      background-color: #111;
+      color: #fff;
+      padding: 18px;
+      font-size: 35px;
+      font-weight: 400;
+    }
+
+    .img1, .img2, .img3 {
+      position: relative;
+      opacity: 0.85;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .img1 {
+      background-image: url("http://mandaladance.net/wp-content/uploads/2016/08/maxresdefault.jpg");
+      min-height: 100%;
+    }
+
+    .img2 {
+      background-image: url("http://seattletimes.wpengine.netdna-cdn.com/today/files/2014/08/smoreNo.jpg");
+      min-height: 90%;
+    }
+
+    .img3 {
+      background-image: url("http://girlterest.com/wp-content/uploads/2015/03/Best-Starbucks-Drinks.jpg");
+      min-height: 95%;
+    }
+    </style>
+  </head>
+  <body>
+      <div class="text-block">
+        <h3>WELCOME!</h3>
+        <p>
+          This is a demo page to display the basic parallax scrolling in a webpage.
+        </p>
+      </div>
+      <div class="img1">
+        <div class="caption">
+          <span class="border">SCROLL DOWN</span>
+        </div>
+      </div>
+      <div class="text-block">
+        <h3>PARALLAX</h3>
+        <p>
+          One big web design trend of the moment is parallax scrolling, which involves
+          the background moving at a slower rate to the foreground, creating a 3D effect
+          as you scroll down the page. It can sometimes be overwhelming, but when used
+          sparingly it can provide a nice, subtle element of depth.
+        </p>
+      </div>
+      <div class="img2">
+        <div class="caption">
+          <span class="border">KEEP GOING :)</span>
+        </div>
+      </div>
+      <div class="text-block">
+        <h3>MULTIPLE LAYERING</h3>
+        <p>
+          Some display systems support multiple background layers that can be scrolled
+          independently in horizontal and vertical directions and composited on one
+          another, simulating a multiplane camera. On such a display system, a game can
+          produce parallax by simply changing each layer's position by a different
+          amount in the same direction. Layers that move more quickly are perceived to be
+          closer to the virtual camera. Layers can be placed in front of the playfield—the
+          layer containing the objects with which the player interacts—for various
+          reasons such as to provide increased dimension, obscure some of the action of
+          the game, or distract the player.
+        </p>
+      </div>
+      <div class="img3">
+        <div class="caption">
+          <span class="border">THANK YOU!</span>
+        </div>
+      </div>
+  </body>
+</html>
